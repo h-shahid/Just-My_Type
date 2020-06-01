@@ -87,7 +87,9 @@ $(document).ready(function () {
         if (sentenceIndex > sentences.length - 1) {
             $( "#target" ).click(function() {
                 console.log( "Game Over!" );
-                btn.eventListener('click', function())
+                btn.eventListener('click', function(){
+                    alert('game Over')
+                })  //doesn't work 
               });
     gameEnd = true
     restartButton
